@@ -1,0 +1,12 @@
+.octodex{
+    display: inline-block;
+    
+}
+img {
+    height: 200px;
+    width: 200px;
+}
+.octocat{
+   border:1px solid black;
+    display: inline;
+}
