@@ -1,0 +1,132 @@
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+* {
+    padding:0;
+    margin:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.nav-row{
+    display: flex;
+    background-color: black;
+    color:white;
+    justify-content: space-around;
+    align-items: center;
+    height:50px;
+    font-family: 'Josefin Sans';
+    text-transform: uppercase;
+    font-size: 13px
+}
+nav-item > a { 
+    text-decoration: none;
+    color:white;
+}
+
+ul > li {
+    list-style:none;
+}
+#facebook{
+    font-size:20px;
+}
+.page-header {
+    /*background-image: url(/Users/caseymccaskill/Desktop/ironyard/frontEndFundamentals/Week1/CSS layout and flexbox-Assessment/img/header-img.jpg);
+    background-size: contain;
+    background-repeat: none;
+    background-attachment: fixed;
+    height: 250px;*/
+}
+.header-content{
+    background-image: url("../img/header-img.jpg");
+    background-size: 100%;
+    background-repeat: none;
+    background-attachment: fixed;
+    height: 450px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+.main-heading{
+    font-family: 'Josefin Sans';
+    color:black;
+    font-size:50px;
+}
+.sub-heading{
+    font-family:'Dancing Script';
+    color:white;
+    font-size:45px;
+    margin-top:-25px;
+    text-shadow: 2px 2px 4px black;
+}
+main {
+    background-color: #fef9ec;
+    display:flex;
+    width:80%;
+    margin:auto;
+    margin-top:-40px;
+
+}
+.blog-row{
+    display: flex;
+    flex-direction:column;
+    width: 60%;
+
+}
+aside{
+    width:30%;
+    background-color: #EFEADF;
+    margin:45px;
+    padding:65px;
+    line-height: 30px;
+    
+}
+.item{
+    background-color: white;
+    margin:15px;
+    padding:35px;
+    
+}
+.icon-wrapper{
+
+}
+.auth-pic{
+    background-image: url("../img/author.jpeg");
+    background-size: 100%;
+    background-repeat: none;
+    height: 300px;
+    border-radius: 50%;
+}
+#yhact-img{
+    background-image: url("../img/yhact.jpg");
+    height:300px;
+    background-repeat:none;
+    /*background-size:100%;*/
+    width:50%;
+}
+#xx{
+    background-image: url("../img/xx.png");
+    height:300px;
+    background-repeat:none;
+    background-size:100%;
+    width:50%;
+}
+#dino{
+    background-image: url("../img/dino.jpg");
+    height:300px;
+    background-repeat:none;
+    background-size:100%;
+    width:50%;
+}
+.meta{
+    display:flex;
+    justify-content: space-between;
+}
+.aside-heading{
+    border-bottom:1px solid black;
+    line-height: 70px;
+}

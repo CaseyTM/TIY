@@ -1,0 +1,42 @@
+nav {
+    border-bottom:1px solid black;
+}
+#icon{
+    float: left;
+    width:auto;
+    padding-top: 10px;
+    padding-left: 15px;
+    background-color: white;
+    padding-bottom: 5px;
+
+}
+#icon img{
+    height: 40px;
+    width: auto;
+}
+a{
+    padding: 20px;
+    color:#2B2F26;
+    font-family: 'Roboto', sans-serif;
+}
+a:hover{
+    color: #CD5D67;
+}
+a:active{
+    color:#968772;
+}
+body{
+margin:0;
+padding:0;
+width: 100%;
+}
+#nav-links{
+    display:flex;
+    justify-content: center;
+    background-color:white;
+}
+#birdhouse img{
+height: 10vh;
+width: auto;
+border: 1px solid red;
+}
