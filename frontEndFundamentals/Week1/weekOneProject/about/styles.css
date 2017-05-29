@@ -1,5 +1,7 @@
 nav {
     border-bottom:1px solid black;
+    position: fixed;
+    width: 100%;
 }
 #icon{
     float: left;
@@ -26,6 +28,7 @@ a:active{
     color:#968772;
 }
 body{
+background-color: #F2F1E8;
 margin:0;
 padding:0;
 width: 100%;
@@ -35,8 +38,83 @@ width: 100%;
     justify-content: center;
     background-color:white;
 }
-#birdhouse img{
-height: 10vh;
-width: auto;
-border: 1px solid red;
+#birdHouse {
+height:80px;
+float:left;
+padding: 0px 15px 5px 0px;
 }
+p {
+line-height: 26px;
+}
+#quote {
+    border-left: 1px solid black;
+    padding-left: 20px;
+    margin-left: 0px;
+}
+.upper-body {
+margin:auto;
+width: 60%;
+padding-top:20px;
+
+}
+.lower-body {
+width: 60%;
+margin:auto;
+
+}
+#divider-image{
+    width: 100%;
+    height:200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:url("../images/background-3.jpg");
+    background-position: center center;
+}
+h1 {
+    text-align: center;
+}
+.container{
+    padding-top: 60px;
+
+}
+table {
+    border-collapse: collapse;
+}
+#facilities {
+    height: auto;
+    width: 70%;
+}
+#table {
+    height:auto;
+    width: 70%;
+    padding-bottom: 30px;
+}
+#aside img{
+    height: auto;
+    width: 100%;
+
+}
+section{
+display:flex;
+flex-wrap: wrap;
+flex-direction: row;
+height: 500px;;
+justify-content: space-between;
+
+}
+#aside{
+    width: 27%;
+    padding-top: 8vh;
+}
+th,td{
+padding: 5px;
+
+}
+footer {
+    margin-top: 30px;
+    padding: 20px;
+    color: white;
+    background-color: #16262b;
+}
+
+

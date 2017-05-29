@@ -94,6 +94,8 @@ a:active{
 }
 nav {
     border-bottom:1px solid black;
+    position: fixed;
+    width: 100%;
 }
 #icon{
     float: left;
